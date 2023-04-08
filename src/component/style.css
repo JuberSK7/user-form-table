@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #3994f0;
+  width: 30vw;
+ 
+}
+.person_logo {
+  width: 40px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.form_heading {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+.form_child {
+
+  
+}
+
+.form_child > label {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.form_child > input {
+  outline: none;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add_btn {
+  background-color: #fff;
+  border: 1px solid #4caf50;
+  color: #000;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.add_btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.person_data {
+  border-collapse: collapse;
+  width: 100%;
+}
+.person_data td,
+.person_data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.person_data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  height: 100vh;
+  background-color: #eaecee;
+}
+.search_input {
+  outline: none;
+  width: 400px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 22px;
+}
+.pagination {
+  margin-top: 22px;
+}
+.paging_btn {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-right: 1px;
+  border: none;
+  cursor: pointer;
+}
+.list_heading{
+  background-color: #1b1b1b;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  width: 100vw;
+}
+.warnig_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color:  #ffffff;
+  border-radius: 12px;
+}
+.warnig_box > p {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+}
+#city{
+ 
+  width: 300px;
+  border-radius: 4px;
+
+}
